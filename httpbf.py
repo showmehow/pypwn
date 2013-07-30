@@ -11,7 +11,7 @@ HTTP Authorization Brute Force v.0.1
 Ken Eddy - files.eddy@gmail.com
 """
 
-request = urllib2.Request("http://192.168.56.101/oscommerce3/catalog/admin")
+request = urllib2.Request("http://192.168.56.101/subroot/catalog/admin")
 
 #open userlist
 
