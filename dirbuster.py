@@ -24,7 +24,7 @@ open_dir_list.close()
 
 for dir in dirs:
 	
-	uri = url+dir
+	uri = url+"/"+dir
 
 	try:
 		response = urllib2.urlopen(uri)
